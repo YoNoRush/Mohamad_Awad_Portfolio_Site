@@ -1,0 +1,34 @@
+body{
+    font-family: afacad;
+    background-image: url('../images/Background.png');
+    background-size: auto;
+    background-repeat: repeat-y;
+}
+
+p
+{
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.titles_of_anims
+{
+    color: black;
+    font-size: 30px;
+}
+
+.all_animas
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.anim
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}

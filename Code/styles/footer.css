@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    margin: 0px;
+    font-family: Suez One;
+}
+
+.contact_me_txt
+{ 
+    margin: 0.5vw;
+    font-size: 30px;
+    -webkit-text-stroke: .50px black;
+    color: white;
+}
+
+.copyright_txt
+{
+    color: white;
+    padding-top: 100px;
+}
+
+.right_end_foot
+{
+    display: flex;
+}
+
+.SM_Buttons
+{
+    display: flex;
+}
+
+.Social_Medias
+{
+    margin: 0.5vw;
+}
+
+.scimgs
+{
+    width: 5vw;
+}
+
+.signature
+{
+    margin:1vw;
+}

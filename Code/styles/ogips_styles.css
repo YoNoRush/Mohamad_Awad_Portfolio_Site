@@ -1,0 +1,13 @@
+body{
+    font-family: afacad;
+    background-image: url('../images/Background.png');
+    background-size: auto;
+    background-repeat: repeat-y;
+}
+
+.NimbImgs
+{
+    width: 10.5vw;
+    margin: 0.25vw;
+    border: 5px solid black;
+}

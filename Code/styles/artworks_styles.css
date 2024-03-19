@@ -1,0 +1,66 @@
+body{
+    font-family: afacad;
+    background-image: url('../images/Background.png');
+    background-size: auto;
+    background-repeat: repeat-y;
+}
+
+.caricature_scroll
+{
+    display: flex;
+    width: 100%; 
+    align-items: center;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+
+.caricature_scroll > * 
+{
+    grid-column: 2 / -2;
+}
+
+.caricature_scroll > .full 
+{
+    grid-column: 1 / -1;
+}
+
+.caricature_sections
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caricatures
+{
+    width: 25vw;
+    border: 5px solid black;
+    margin: 1vw;
+} 
+
+.collage
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: flex-end;
+}
+
+.nintendo_fanarts
+{
+    width: 20vw;
+    border: 5px solid black;
+    margin: .5vw;
+}
+
+.corp_imgs
+{
+    display: flex;
+    justify-content: center;
+}
+
+.swft_imgs
+{
+    width: 20vw;
+    border: 5px solid black;
+    margin: .5vw;
+}

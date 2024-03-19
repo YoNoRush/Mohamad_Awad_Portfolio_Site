@@ -1,0 +1,121 @@
+body {
+    background-image: url('../images/Background.png');
+    background-size: auto; 
+    background-repeat: repeat-y;  
+  }
+  
+
+.img_of_me
+{
+    width:250px; 
+    border-radius:50%;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+    border: 5px solid black;
+}
+
+.biography_section
+{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    font-family: Afacad;
+    -webkit-text-stroke: .25px black;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.different_works
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.works_options_right
+{
+    width: 30vw;
+    height: 400px;
+    margin-bottom: 5em;
+    margin-right: 1vw;
+    border: 10px solid black;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: Suez One;
+    border-radius: 20px;
+}
+
+.works_options_right:hover
+{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.works_options_right:active
+{
+    opacity: 0.70;
+    cursor: pointer;
+}
+
+.works_options_left
+{
+    width: 30vw;
+    height: 400px;
+    margin-bottom: 5em;
+    margin-left: 1vw;
+    border: 10px solid black;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: Suez One;
+    border-radius: 20px;
+}
+
+.works_options_left:hover
+{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.works_options_left:active
+{
+    opacity: 0.70;
+    cursor: pointer;
+}
+
+
+.names_of_options
+{
+    font-size: 2.5vw;
+}
+
+.resume_button_section
+{
+    display: flex;
+    justify-content: center;
+}
+
+.resume_button
+{
+    width: 78vw;
+    height: 200px;
+    margin-bottom: 25px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(159, 59, 252);
+    border: 10px solid black;
+    font-family: Suez One;
+    border-radius: 20px;
+}
+
+.resume_button:hover
+{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.resume_button:active
+{
+    opacity: 0.70;
+    cursor: pointer;
+}
